@@ -83,20 +83,20 @@ body {
 }
 /* Buttons */
 .btn {
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  padding: .5rem 1rem;
+  border-radius: .75rem;
 }
 .btn-sm {
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  padding: .5rem 1rem;
+  border-radius: .75rem;
 }
 .btn-md {
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+  padding: .5rem 1rem;
+  border-radius: .75rem;
 }
 .btn-lg {
-  padding: 1rem 2.6rem;
-  border-radius: 4px;
+  padding: 1rem 2rem;
+  border-radius: .75rem;
 }
 .bg-primary {
   background-color: #6592e6 !important;
@@ -1192,7 +1192,7 @@ a {
   width: 60px;
   min-width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: .75rem;
   margin-right: 2rem;
   display: flex;
   justify-content: center;
