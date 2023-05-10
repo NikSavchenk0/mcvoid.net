@@ -3,6 +3,34 @@ section {
   background-color: #ffffff;
 }
 
+.header-content-online {
+  animation: animate 3s linear infinite;
+  border-radius: 100%;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  margin-right: 14px;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 #67e872af, 0 0 0 0 #67e872af;
+    transform: scale(0.7);
+  }
+  40% {
+    box-shadow: 0 0 0 10px #ff6d4a00, 0 0 0 0 #67e872af;
+    transform: scale(0.9);
+  }
+  80% {
+    box-shadow: 0 0 0 10px #ff6d4a00, 0 0 0 10px #ff6d4a00;
+    transform: scale(0.8);
+  }
+  100% {
+    box-shadow: 0 0 0 0 #ff6d4a00, 0 0 0 10px #ff6d4a00;
+    transform: scale(0.7);
+  }
+}
+
+
 body {
   font-style: normal;
   line-height: 1.5;
